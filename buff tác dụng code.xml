@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+  <!-- Version 1: Khởi tạo luồng cấp quyền hệ thống & Lõi Anti-Ban -->
+  <project version="1">
+    <component name="CoreBuffEngine" JavaVersion="1" />
+    <component name="WriteSettingHideVersion" JavaVersion="1">
+      <Asset_DataAsset>
+        <option name="externalDataAsset" strings="$WRITE_EXTERNALS$" />
+        <option name="com.android.accesspointernetwork" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="com.android.ACCESS_POINTER_SPEED" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="com.android.security.FORCE_ANTIBAN_V2" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="COMPRESS" strings="true" />
+      </Asset_DataAsset>
+    </component>
+  </project>
+
+  <!-- Version 2: Ép xung thông số (Buff) Aim, Headlock & Triệt tiêu độ giật -->
+  <project version="2">
+    <Asset_DataAsset>
+      <option name="on=1" strings="$WRITE_FILE$" />
+      <option name="off=0" strings="$WRITE_FILE$" />
+      
+      <!-- Ép xung AimLock & Bắt buộc dính đầu (Force Hit) -->
+      <option name="Com.Ss-Ffx64.AimLock.MaxPower=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.LockHead.ForceHit=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Khóa cứng tâm (Absolute Zero Recoil) & Siêu nhẹ tâm -->
+      <option name="Com.Ss-Ffx64.AntiRecoil.AbsoluteZero=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.AimSmoothness.Buff=0.01" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <option name="NguyenTien" boolean="1" />
+    </Asset_DataAsset>
+  </project>
+
+  <!-- Version 3: Bypass Hệ thống & Xác thực vòng lặp -->
+  <project version="3">
+    <Asset_DataAsset>
+      <option name="acp_click=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="on_com.dts.freefireth_launcher=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="com.restore-device.launcher=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Chặn gửi nhật ký máy chủ (Server Log Block) -->
+      <option name="com.garena.anticheat.bypass.enable=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="com.server.log.block=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <option name="NguyenTien" boolean="1" />
+    </Asset_DataAsset>
+  </project>
+</projects>

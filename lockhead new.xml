@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+  <!-- Version 1: Khởi tạo hệ thống & Vượt tường lửa bảo mật -->
+  <project version="1">
+    <component name="CoreAlgorithm" JavaVersion="1" />
+    <component name="WriteSettingHideVersion" JavaVersion="1">
+      <Asset_DataAsset>
+        <option name="externalDataAsset" strings="$WRITE_EXTERNALS$" />
+        <option name="com.android.accesspointernetwork" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="com.android.ACCESS_POINTER_SPEED" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="com.android.security.ANTIBAN_BYPASS" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="COMPRESS" strings="true" />
+      </Asset_DataAsset>
+    </component>
+  </project>
+
+  <!-- Version 2: Thiết lập thuật toán Vector & Định tuyến mục tiêu -->
+  <project version="2">
+    <Asset_DataAsset>
+      <option name="on=1" strings="$WRITE_FILE$" />
+      <option name="off=0" strings="$WRITE_FILE$" />
+      
+      <!-- Kích hoạt Module tính toán Vector -->
+      <option name="Com.Ss-Ffx64.Aps=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.VectorCalculation.Enable=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Logic tính toán tâm tới đầu (Hitbox: Head, Bán kính: 125px) -->
+      <option name="Com.Ss-Ffx64.Target.Hitbox=Head" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.Scan.Radius_px=125" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Thực thi nội suy không gian trong 0.5s -->
+      <option name="Com.Ss-Ffx64.Aim.TransitionTime_s=0.5" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.Aim.LinearInterpolation=0" strings="$WRITE_REGULATOR_DATA$" /> <!-- Tắt tuyến tính -->
+      <option name="Com.Ss-Ffx64.Aim.BezierCurveSmooth=1" strings="$WRITE_REGULATOR_DATA$" /> <!-- Dùng đường cong để mô phỏng tay người -->
+      
+      <option name="NguyenTien" boolean="1" />
+    </Asset_DataAsset>
+  </project>
+
+  <!-- Version 3: Khởi chạy Launcher & Vô hiệu hóa báo cáo -->
+  <project version="3">
+    <Asset_DataAsset>
+      <option name="acp_click=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="on_com.dts.freefireth_launcher=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="com.restore-device.launcher=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Phân hệ Anti-ban bổ sung -->
+      <option name="com.security.anticheat.heuristic_bypass=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="com.bypass.server.report_log=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <option name="NguyenTien" boolean="1" />
+    </Asset_DataAsset>
+  </project>
+</projects>
