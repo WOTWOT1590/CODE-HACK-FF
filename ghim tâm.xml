@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+  <!-- Version 1: Khai báo hệ thống, phân quyền và lớp bảo vệ Anti-Ban -->
+  <project version="1">
+    <component name="SecurityAndSystem" JavaVersion="1" />
+    <component name="WriteSettingHideVersion" JavaVersion="1">
+      <Asset_DataAsset>
+        <option name="externalDataAsset" strings="$WRITE_EXTERNALS$" />
+        <option name="com.android.accesspointernetwork" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="com.android.ACCESS_POINTER_SPEED" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="com.android.security.ANTIBAN_BYPASS" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="COMPRESS" strings="true" />
+      </Asset_DataAsset>
+    </component>
+  </project>
+
+  <!-- Version 2: Thuật toán ghim tâm cứng vào đầu & Xử lý độ ổn định -->
+  <project version="2">
+    <Asset_DataAsset>
+      <option name="on=1" strings="$WRITE_FILE$" />
+      <option name="off=0" strings="$WRITE_FILE$" />
+      
+      <!-- Cấu hình Ghim Tâm Vào Đầu Chặt (Tight HeadLock) -->
+      <option name="Com.Ss-Ffx64.LockHead.Enable=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.LockHead.TightStrength=1.0" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.HeadTarget.Precision=100" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.AimAssist.HardLock=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.Crosshair.ZeroRecoil=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.ScanInterval=0.001" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Danh xưng xác thực -->
+      <option name="NguyenTien" boolean="1" />
+    </Asset_DataAsset>
+  </project>
+
+  <!-- Version 3: Kích hoạt Launcher, Bypass Report & Khiên Anti-Ban -->
+  <project version="3">
+    <Asset_DataAsset>
+      <option name="acp_click=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="on_com.dts.freefireth_launcher=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="com.restore-device.launcher=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Hệ thống Anti-Ban & Mã hóa Payload -->
+      <option name="com.antiban.protection.status=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="com.bypass.report.system=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="com.security.encrypted_payload=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Danh xưng xác thực -->
+      <option name="NguyenTien" boolean="1" />
+    </Asset_DataAsset>
+  </project>
+</projects>s

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+  <project version="1">
+    <component name="OptimaSensSystem" JavaVersion="1" />
+    <component name="WriteSettingHideVersion" JavaVersion="1">
+      <Asset_DataAsset>
+        <option name="externalDataAsset" strings="$WRITE_EXTERNALS$" />
+        <option name="com.android.accesspointernetwork" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="com.android.ACCESS_POINTER_SPEED" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <!-- Phân hệ ẩn danh & Anti-Ban cấp thấp -->
+        <option name="com.android.security.HIDE_PACKAGE_SIGNATURE" strings="#WRITE_EXTENAL_SETTING_PERMISSION" />
+        <option name="COMPRESS" strings="true" />
+      </Asset_DataAsset>
+    </component>
+  </project>
+  
+  <project version="2">
+    <Asset_DataAsset>
+      <option name="on=1" strings="$WRITE_FILE$" />
+      <option name="off=0" strings="$WRITE_FILE$" />
+      <!-- Phân hệ Nhẹ Tâm Max (Gia tốc & Mượt độ nhạy) -->
+      <option name="Com.Ss-Ffx64.PointerSpeed.Overdrive=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.AimSmoothness.Ultra=100" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="Com.Ss-Ffx64.RecoilSoftening.Max=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Định danh tác giả -->
+      <option name="NguyenTien" boolean="1" />
+    </Asset_DataAsset>
+  </project>
+  
+  <project version="3">
+    <Asset_DataAsset>
+      <option name="acp_click=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="on_com.dts.freefireth_launcher=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="com.restore-device.launcher=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Phân hệ Anti-Ban Cấp cao (Chặn báo cáo & Bypass) -->
+      <option name="com.antiban.security.bypass.strict=1" strings="$WRITE_REGULATOR_DATA$" />
+      <option name="com.anticheat.block.telemetry.log=1" strings="$WRITE_REGULATOR_DATA$" />
+      
+      <!-- Định danh tác giả -->
+      <option name="NguyenTien" boolean="1" /> 
+    </Asset_DataAsset>
+  </project>
+</projects>
